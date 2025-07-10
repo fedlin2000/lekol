@@ -1,0 +1,517 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ,;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* partim sa a se entet paj la*/
+header .antet{
+    width: 100%;
+    height: 40px;
+    background-color: #be7b06;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header {
+    border-bottom: 4px solid #be7b06;
+  
+    
+}
+.antet .nume{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    gap: 5px;
+    
+
+}
+.antet .nume a{
+    text-decoration: none;
+    color: white;
+    padding-right: 13px;
+}
+header .antet .rezo{
+    padding-right: 100px;
+    
+}
+.antet .rezo img{
+    padding: 15px;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo{
+    line-height: 21px;
+    text-align: center;
+    padding-left: 110px;
+}
+.nav .logo h1{
+    font-size: 35px;
+    
+}
+.nav .logo h1 a{
+    text-decoration: none;
+    color: #4b4a4a;
+}
+.nav .logo h3{
+    font-size: 14px;
+}
+.nav ul{
+    display: flex;
+    padding-right: 110px;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #4b4a4a;
+}
+/* section hero*/
+.hero .hero1{
+    width:100%;
+    height:500px;
+    background-image: url(elav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    
+   
+}
+.hero1::after{
+    height:500px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background-color: rgba(23, 19, 58, 0.8);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-20%);
+    text-align: center; 
+}
+.content h2{
+    font-size: 45px;
+    font-weight: 250;
+    margin-bottom:20px ;
+    line-height: 45px;
+    color: white;
+}
+.content p{
+    color: white;
+}
+/* section categorie*/
+.categorie{
+    width: 80%;
+    height: 120px;
+    background-color: #be7b06;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 64px;
+    margin-top: -3.6em;
+    position: relative;
+    border-radius: 25px;
+}
+.categorie .prof{
+    text-align: center;
+    line-height: 30px; 
+}
+.categorie .prof p{
+    font-size: 20px;
+
+}
+.categorie .prof p a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+
+}
+/*section ki gen tablo ladanl lan*/
+.contenue{
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-top: -3.9em;
+}
+.contenue .ore-avanse{
+    margin-left: 110px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+ 
+}
+table, td{
+     padding-left: 10px;
+}
+.contenue aside{
+    margin-right: 110px;
+    width: 250px;
+    height: 380px;
+    background-color: #e3d5ca;
+    text-align: center;
+     border-radius: 15px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+}
+.contenue aside .asid-antet{
+    background-color: #be7b06;
+    padding:8px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    gap: 10px;
+}
+ aside .asid-image{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 5px;
+}
+.contenue aside .asid-antet h3{
+    color: white;
+}
+#para{
+    padding: 5px 15px 8px 15px;
+    text-align: justify;
+    font-size: 15px;
+
+}
+.contenue aside .asid-antet img{
+    border-radius: 50%;
+}
+/* saction a propos*/
+.apropos{
+    width: 95%;
+    height: 450px;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    align-items:center;
+}
+.apropos .image{
+    background-image: url(bel\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 390px;
+
+}
+.message{
+    text-align: center;
+    margin: 35px 0px;
+
+}
+.message h2{
+    font-size: 40px;
+}
+.message p{
+    width: 50%;
+    margin: auto;
+}
+.apropos .lekol{
+    width: 450px;
+    height: 390px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+.apropos .lekol h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* section ki gen prof yo*/
+.nos-prof{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    background-image: url(22.png);
+    background-attachment:fixed;
+   
+
+}
+.nos-prof .le-prof{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color: #be7b06;
+    align-content: center;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.nos-prof .le-prof:hover{
+    background-color: #383838;
+    
+}
+.nos-prof .le-prof p{
+    color: white;
+    padding-bottom: 7px;
+    padding-top: 4px;
+    font-size: 12.5px;  
+}
+.nos-prof .le-prof h4{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.nos-prof .le-prof img{
+    padding: 5px;
+}
+/* paj klas yo*/
+/* section klas yo*/
+.klas-yo{
+    width: 100%;
+    height: 260px;
+    background-image: url(44.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    
+}
+.klas-yo .yo-klas{
+    display: flex;
+    width: 80%;
+    height: 110px;
+    background-color: #be7b06;
+    margin: auto;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.klas-yo .yo-klas .klas-yo-img{
+    text-align: center;
+}
+.klas-yo .yo-klas .klas-yo-img h3{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    
+}
+/* section-ore klas setyem*/
+.section-ore{
+    width: 100%;
+    height: 600px;
+   
+    
+}
+.ore-avanse-klas-yo button{
+    padding: 13px;
+    background-color: #be7b06;
+    border: none;
+    border-radius: 15px;
+    float: right;
+    margin-right: 100px;
+
+    
+    
+}
+.ore-avanse-klas-yo button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.ore-avanse-klas-yo button:hover{
+    
+    background-color: #312803;
+    border: 1px solid #be7b06;
+}
+#kouzin{
+    padding: 13px;
+    background-color: #be7b06;
+    border: none;
+    border-radius: 15px;
+}
+#kouzin a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#kouzin:hover{
+    background-color: #312803;
+    border: 1px solid #be7b06;
+}
+/*paj kontak*/
+/* imaj antet*/
+.kontak-section{ 
+    background-image: url(accueil_haiti.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 350px;
+}
+.form-section{
+    width: 100%;
+    height: 570px;
+    display:flex;
+    justify-content:center;
+    padding: 50px 30px;
+    gap: 20px;
+    border-top: 4px solid #be7b06;
+}
+.form-section .form {
+    background-color: #f2f2f2;
+    width:50% ;
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px 15px 0px 15px;
+    
+    
+}
+
+.form-section input[type=text], select, textarea{
+    width:560px;
+    padding: 10px;
+    margin: 10px;
+}
+.imaj{
+    width: 50%;
+    background-image: url(elav.png);
+    background-size: cover;
+    height: 400px;
+    border: 2px solid #777675;
+    border-radius: 15px;
+
+}
+input[type=submit] {
+  background-color: #be7b06;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+/* paj pwofese*/
+.pwofesè-1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    align-items: center;
+    background-image: url(33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.pwofesè-1 .l0-prof{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color: #be7b06;
+    align-content: center;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+#prof{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 40px;
+   
+    
+    
+}
+#prof .mama-img{
+    width: 350px;
+    height: 350px;
+    background-image: url(pro1.png);
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+#prof .mama{
+    width: 37%;
+    height: 330px;
+    padding: 20px 10px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+#prof .mama button{
+    color: #ffffff;
+    background-color: #be7b06;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#prof .mama button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*sa se pati footer a*/
+.footer{
+    width: 100%;
+    height: 300px;
+    color: #000000;
+    background-color: #312803;
+    align-content: center;
+    
+}
+.footer .foot{
+    display: flex;
+    justify-content:space-between;
+    padding:0px 60px ;   
+}
+.footer .foot h2{
+    text-transform: capitalize;
+}
+.footer .foot p{
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.footer .foot .foot1{
+    width: 250px;
+    height: 200px;
+}
+.footer .copyright{
+    display: flex;
+   justify-content:space-between;
+   padding:0px 60px ;
+  margin-top: 10px;
+  color: #ffffff;
+
+
+}
+.footer .copyright .poli{
+    display: flex;
+    gap: 30px;
+}
+.footer .foot .foot4 .image-rezo{
+    display: inline-flex;
+    padding: 15px;   
+    gap: 20px;
+}
+
